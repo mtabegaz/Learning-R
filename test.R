@@ -1,5 +1,6 @@
 get_yesterday<-function(){
-  return(Sys.Date()-1)
+  x<-(Sys.Date()-1)
+  return(x)
 }
 get_yesterday
 library(usethis)
